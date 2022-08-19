@@ -5,55 +5,6 @@
 /*акцент rgba(255, 255, 255, 0.6);*/
 /*цвет фона #E5E5E5*/
 /*вторичный цвет фона #F5F4FA*/
-:root {
-  --accent-color: #2196f3;
-  --second-accent-color: #212121;
-  --accent-text-color: #757575;
-  --background-accent-color: #ffffff;
-  --background-second-color: #2f303a;
-  --fill-color: #afb1b8;
-  --background-accent-button: #188ce8;
-  --speed: 250ms;
-  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-}
-
-button {
-  cursor: pointer;
-}
-
-.menu-link.current {
-  color: var(--accent-color);
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-}
 
 /* test */
 /* :hover,
@@ -64,19 +15,6 @@ body {
 
 /* ================Общие классы================ */
 /* HEADER */
-.page-header {
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
-  border: 1px solid #ececec;
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .page-header-container {
   display: flex;
@@ -633,10 +571,6 @@ body {
 
 /* Main */
 /* Навигация */
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .container-buttons {
   display: flex;
@@ -1013,12 +947,6 @@ body {
 .modal-form-check:focus + .modal-form-check-desc::before {
   outline: 2px solid var(--accent-color);
   border: none;
-}
-
-.checkbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .modal-form-submit {
