@@ -65,6 +65,27 @@ body {
   border: 1px solid #ececec;
 }
 
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  margin-right: 92px;
+}
+
 .checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
