@@ -484,7 +484,7 @@ body {
   margin-right: 30px;
 }
 
-.command-item-wraper {
+.command-item-wrapper {
   position: absolute;
   height: 70px;
   width: 100%;
@@ -496,7 +496,7 @@ body {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.text-wraper {
+.text-wrapper {
   display: flex;
   font-family: "Roboto";
   font-style: normal;
@@ -765,7 +765,7 @@ body {
   padding: 10px 29px;
   transition: background-color var(--speed) var(--cubic);
 }
-.button-send-footer:hover, .button-send-footerfocus {
+.button-send-footer:hover, .button-send-footer:focus {
   background-color: var(--background-accent-button);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
