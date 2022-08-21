@@ -10,6 +10,10 @@
 
 .benefits-list {
   width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .benefits-icon-container {
@@ -21,10 +25,6 @@
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
-}
-
-.benefits-list:not(:last-child) {
-  margin-right: 30px;
 }
 
 .benefits-title {

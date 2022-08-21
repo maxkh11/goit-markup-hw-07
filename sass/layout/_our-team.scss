@@ -56,6 +56,11 @@
   margin-top: 16px;
 }
 
+.social-list-icon {
+  fill: var(--fill-color);
+  transition: fill var(--speed) var(--cubic);
+}
+
 .social-list-link {
   display: flex;
   justify-content: center;
@@ -65,19 +70,13 @@
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   transition: background-color var(--speed) var(--cubic);
-}
 
-.social-list-icon {
-  fill: var(--fill-color);
-  transition: fill var(--speed) var(--cubic);
-}
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
 
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--accent-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--background-accent-color);
+    & .social-list-icon {
+      fill: var(--background-accent-color);
+    }
+  }
 }

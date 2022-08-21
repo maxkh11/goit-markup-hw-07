@@ -12,11 +12,17 @@
 @import "./components/menu-link";
 @import "./components/address-tel-container";
 @import "./components/command";
+@import "./components/modal-backdrop";
+@import "./components/modal-form";
 
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/about";
 @import "./layout/what-we-are-doing";
 @import "./layout/our-team";
-
-@import "./utils/checkbox";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/subscribe";
+@import "./layout/main-navigation-portfolio";
+@import "./layout/tile-elements-portfolio";
+@import "./layout/footer-portfolio";

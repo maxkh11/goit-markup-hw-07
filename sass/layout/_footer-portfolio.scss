@@ -1,41 +1,41 @@
-.mail-address {
+.background-footer-portfolio {
+  background-color: var(--background-second-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.mail-address-portfolio {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-text-color);
   margin-right: 50px;
-  padding: 32px 0;
-  display: flex;
-  align-items: center;
-  transition: color var(--speed) var(--cubic);
-}
-
-.social-icon-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.mail-address:hover,
-.mail-address:focus {
-  color: var(--accent-color);
-}
-
-.phone-number {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--accent-text-color);
-  padding: 32px 0;
-  display: flex;
+  display: block;
   transition: color var(--speed) var(--cubic);
 
   &:hover,
   &:focus {
     color: var(--accent-color);
   }
+}
+
+.phone-number-portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-text-color);
+  display: block;
+  transition: color var(--speed) var(--cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.current-portfolio {
+  background-color: var(--accent-color);
+  color: var(--background-accent-color);
 }

@@ -17,10 +17,10 @@
 
 .command-item {
   position: relative;
-}
 
-.command-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .command-item-wraper {
