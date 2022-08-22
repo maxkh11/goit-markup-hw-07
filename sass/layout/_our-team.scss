@@ -70,13 +70,19 @@
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   transition: background-color var(--speed) var(--cubic);
-
+  
   &:hover,
-  &:focus {
-    background-color: var(--accent-color);
+&:focus {
+  background-color: var(--accent-color);
+}
+}
 
-    & .social-list-icon {
-      fill: var(--background-accent-color);
-    }
-  }
+.social-list-icon {
+  fill: var(--fill-color);
+  transition: fill var(--speed) var(--cubic);
+  
+  .social-list-link:hover &,
+.social-list-link:focus & {
+  fill: var(--background-accent-color);
+}
 }

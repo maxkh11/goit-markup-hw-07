@@ -581,6 +581,11 @@ body {
 .social-list-link:hover, .social-list-link:focus {
   background-color: var(--accent-color);
 }
+
+.social-list-icon {
+  fill: var(--fill-color);
+  transition: fill var(--speed) var(--cubic);
+}
 .social-list-link:hover .social-list-icon, .social-list-link:focus .social-list-icon {
   fill: var(--background-accent-color);
 }
@@ -854,7 +859,6 @@ body {
   transform: translate(0, 100%);
   transition: transform var(--speed) var(--cubic);
 }
-
 .work-list:hover .overlay {
   transform: translate(0, 0);
 }

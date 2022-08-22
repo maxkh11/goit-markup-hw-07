@@ -55,10 +55,10 @@
   overflow: auto;
   transform: translate(0, 100%);
   transition: transform var(--speed) var(--cubic);
-}
 
-.work-list:hover .overlay {
-  transform: translate(0, 0);
+  .work-list:hover & {
+    transform: translate(0, 0);
+  }
 }
 
 .work-element-name {
