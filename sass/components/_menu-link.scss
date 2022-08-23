@@ -21,4 +21,8 @@
     background: #2196f3;
     border-radius: 2px;
   }
+
+  & .current {
+    color: var(--accent-color);
+  }
 }
