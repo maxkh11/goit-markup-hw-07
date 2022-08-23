@@ -3,9 +3,7 @@
   text-align: center;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(20px, 700, 23px);
   letter-spacing: 0.03em;
   margin-top: 2px;
   margin-bottom: 12px;
@@ -42,9 +40,7 @@
   display: block;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1, 17;
+  @include font(12px, 400, 14px);
   letter-spacing: 0.01em;
   color: var(--accent-text-color);
   margin-bottom: 4px;
@@ -88,9 +84,7 @@
   align-self: center;
   margin-top: 30px;
   padding: 10px 29px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, 700, 30px);
   letter-spacing: 0.06em;
   min-width: 200px;
   height: 50px;
@@ -114,9 +108,7 @@
   margin-top: 10px;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(14px, 400, 24px);
   letter-spacing: 0.03em;
 
   &::before {

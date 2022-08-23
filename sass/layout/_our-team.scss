@@ -5,9 +5,7 @@
 
 .headline-command {
   text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  @include font(36px, 700, 42px);
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   margin-top: 94px;
@@ -34,17 +32,13 @@
 }
 
 .name-command {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(16px, 500, 19px);
   letter-spacing: 0.03em;
   color: var(--second-accent-color);
 }
 
 .name-position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(16px, 400, 19px);
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
 }
@@ -70,19 +64,19 @@
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   transition: background-color var(--speed) var(--cubic);
-  
+
   &:hover,
-&:focus {
-  background-color: var(--accent-color);
-}
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .social-list-icon {
   fill: var(--fill-color);
   transition: fill var(--speed) var(--cubic);
-  
+
   .social-list-link:hover &,
-.social-list-link:focus & {
-  fill: var(--background-accent-color);
-}
+  .social-list-link:focus & {
+    fill: var(--background-accent-color);
+  }
 }

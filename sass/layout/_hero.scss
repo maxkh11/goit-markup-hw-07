@@ -13,9 +13,7 @@
 }
 
 .hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  @include font(44px, 900, 60px);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-accent-color);
@@ -24,9 +22,7 @@
 .main-button {
   margin-top: 30px;
   padding: 10px 32px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, 700, 30px);
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--background-accent-color);

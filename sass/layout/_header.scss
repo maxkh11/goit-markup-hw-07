@@ -1,7 +1,5 @@
 .mail-address {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 500, 16px);
   letter-spacing: 0.02em;
   color: var(--accent-text-color);
   margin-right: 50px;
@@ -25,9 +23,7 @@
 }
 
 .phone-number {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 500, 16px);
   letter-spacing: 0.02em;
   color: var(--accent-text-color);
   padding: 32px 0;

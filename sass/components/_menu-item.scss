@@ -1,7 +1,5 @@
 .menu-item {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 500, 16px);
   letter-spacing: 0.02em;
   color: var(--second-accent-color);
 
