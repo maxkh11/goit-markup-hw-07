@@ -104,7 +104,8 @@ body {
   color: var(--second-accent-color);
   transition: color var(--speed) var(--cubic);
 }
-.menu-link:hover, .menu-link:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: var(--accent-color);
 }
 .menu-link.current::after {
@@ -156,7 +157,8 @@ body {
   width: 528px;
   height: 581px;
   background-color: var(--background-accent-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
 }
@@ -176,14 +178,16 @@ body {
   padding: 0;
   transition: border-color var(--speed) var(--cubic);
 }
-.modal-close-button:hover, .modal-close-button:focus {
+.modal-close-button:hover,
+.modal-close-button:focus {
   border-color: var(--accent-color);
 }
 
 .modal-close-button-icon {
   transition: fill var(--speed) var(--cubic);
 }
-.modal-close-button:hover .modal-close-button-icon, .modal-close-button:focus .modal-close-button-icon {
+.modal-close-button:hover .modal-close-button-icon,
+.modal-close-button:focus .modal-close-button-icon {
   fill: var(--accent-color);
 }
 
@@ -286,7 +290,8 @@ body {
   color: var(--background-accent-color);
   border: none;
 }
-.modal-form-submit:focus, .modal-form-submit:hover {
+.modal-form-submit:focus,
+.modal-form-submit:hover {
   background-color: var(--background-accent-button);
 }
 
@@ -311,7 +316,8 @@ body {
   border-radius: 2px;
   margin-right: 7px;
   border: 2px solid var(--second-accent-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 .modal-form-check:checked + .modal-form-check-desc::before {
@@ -372,7 +378,8 @@ body {
   display: flex;
   transition: color var(--speed) var(--cubic);
 }
-.phone-number:hover, .phone-number:focus {
+.phone-number:hover,
+.phone-number:focus {
   color: var(--accent-color);
 }
 
@@ -381,7 +388,11 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background: rgba(47, 48, 58, 0.4);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/primary/hero.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/primary/hero.jpg);
   background-color: var(--background-second-color);
   background-size: cover;
 }
@@ -409,7 +420,8 @@ body {
   border-radius: 4px;
   transition: background-color var(--speed) var(--cubic);
 }
-.main-button:hover, .main-button:focus {
+.main-button:hover,
+.main-button:focus {
   background-color: var(--background-accent-button);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -532,7 +544,8 @@ body {
   width: 270px;
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .section-command {
@@ -577,7 +590,8 @@ body {
   background-color: rgb(255, 255, 255);
   transition: background-color var(--speed) var(--cubic);
 }
-.social-list-link:hover, .social-list-link:focus {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -585,7 +599,8 @@ body {
   fill: var(--fill-color);
   transition: fill var(--speed) var(--cubic);
 }
-.social-list-link:hover .social-list-icon, .social-list-link:focus .social-list-icon {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
   fill: var(--background-accent-color);
 }
 
@@ -623,7 +638,8 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: var(--fill-color);
-  transition: fill var(--speed) var(--cubic), border-color var(--speed) var(--cubic);
+  transition: fill var(--speed) var(--cubic),
+    border-color var(--speed) var(--cubic);
 }
 .clients-list-link:hover {
   fill: var(--background-accent-button);
@@ -769,7 +785,8 @@ body {
   padding: 10px 29px;
   transition: background-color var(--speed) var(--cubic);
 }
-.button-send-footer:hover, .button-send-footer:focus {
+.button-send-footer:hover,
+.button-send-footer:focus {
   background-color: var(--background-accent-button);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -797,10 +814,13 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   margin-right: 8px;
-  transition: background-color var(--speed) var(--cubic), color var(--speed) var(--cubic), box-shadow var(--speed) var(--cubic);
+  transition: background-color var(--speed) var(--cubic),
+    color var(--speed) var(--cubic), box-shadow var(--speed) var(--cubic);
 }
-.portfolio-button:hover, .portfolio-button:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.portfolio-button:hover,
+.portfolio-button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--background-accent-color);
   background: var(--accent-color);
 }
@@ -827,11 +847,13 @@ body {
 .work-list:nth-child(3n) {
   margin-right: 0;
 }
-.work-list:nth-last-child(-n+3) {
+.work-list:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.work-list:hover, .work-list:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.work-list:hover,
+.work-list:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 
@@ -903,7 +925,8 @@ body {
   display: block;
   transition: color var(--speed) var(--cubic);
 }
-.mail-address-portfolio:hover, .mail-address-portfolio:focus {
+.mail-address-portfolio:hover,
+.mail-address-portfolio:focus {
   color: var(--accent-color);
 }
 
@@ -916,11 +939,12 @@ body {
   display: block;
   transition: color var(--speed) var(--cubic);
 }
-.phone-number-portfolio:hover, .phone-number-portfolio:focus {
+.phone-number-portfolio:hover,
+.phone-number-portfolio:focus {
   color: var(--accent-color);
 }
 
 .current-portfolio {
   background-color: var(--accent-color);
   color: var(--background-accent-color);
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
