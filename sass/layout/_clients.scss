@@ -2,26 +2,26 @@
   padding: 94px 0;
 }
 
-.headline-clients {
+.clients__headline {
   text-align: center;
   @include font(36px, 700, 42px);
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
-.clients-icon {
+.clients__icon {
   width: 106px;
   height: 60px;
 }
 
-.clients-list-link {
+.clients__list-link {
   display: flex;
   justify-content: center;
   align-items: center;
